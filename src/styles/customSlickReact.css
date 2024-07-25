@@ -1,0 +1,23 @@
+:root {
+    --primarycolor: #223D3C
+}
+
+.slick-prev, .slick-next {
+  color: var(--primarycolor); /* Cor das setas */
+  z-index: 1;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: var(--primarycolor);
+  font-size: 24px;
+}
+
+.slick-dots li button:before {
+  color: var(--primarycolor); /* Cor dos pontos */
+  font-size: 12px; /* Tamanho dos pontos */
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--primarycolor); /* Cor dos pontos ativos */
+  opacity: 1;
+}

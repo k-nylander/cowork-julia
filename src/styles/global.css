@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Carrossel React */
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+* {
+  box-sizing: border-box;
+}
+
+@layer base {
+
+  .spaceInnerItens {
+    @apply justify-between
+  }
+  .spaceInnerItens hr {
+    @apply mb-[50px]
+  }
+  .p-default{
+    @apply p-[7.5%]
+  }
+
+  /* Main desktop style */
+  .presentationState-Full{
+    @apply h-full max-w-[60%] basis-3/5 p-[30px]
+  }
+  .informationState-Full{
+    @apply h-full basis-2/5
+  }
+
+  /* Main mobile style */
+  .presentationState-Mobile{
+    @apply h-screen w-screen
+  }
+  .informationState-Mobile{
+  }
+
+  /* Image pesentation default configuration */
+  .carouselImagePresentation{
+    @apply rounded-t-[50%] h-full w-full select-none p-[20px]
+  }
+}
