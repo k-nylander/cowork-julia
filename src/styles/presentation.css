@@ -1,0 +1,38 @@
+/* presentation.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --imageWidth: 85%;
+    --imageHeight: calc(var(--imageWidth)*0.61);
+}
+
+@layer base {
+    #presentation {
+        @apply h-full flex flex-col justify-center items-center box-border py-[3.5%];
+        /* @apply pt-[7.5%] pb-[10%]; */
+    }
+
+    .logo {
+        @apply max-w-[200px] sm:w-[20%] sm:grow-[1] grow-[2.5];
+    }
+
+    .sliderStyle {
+        @apply max-w-[80%] shrink-[4] mx-auto border-0 items-center justify-center space-y-4;
+    }
+
+    .carouselImagePresentation {
+        @apply rounded-t-[40%] max-h-[30vh] sm:max-h-[50vh] min-h-fit p-[10px];
+        @apply border-0 object-cover mx-auto space-x-[20px];
+    }
+
+    .imageTitle {
+        @apply text-2xl font-bold text-center text-[#965d47];
+    }
+  
+    .subtitle {
+        @apply text-center grow-[1] flex flex-col justify-end sm:justify-center items-center;
+    }
+}

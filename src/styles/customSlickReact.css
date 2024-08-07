@@ -1,5 +1,6 @@
 :root {
-    --primarycolor: #223D3C
+    --primarycolor: #9a4c2e;
+    --fontSize: 24px;
 }
 
 .slick-prev, .slick-next {
@@ -7,17 +8,23 @@
   z-index: 1;
 }
 
+
 .slick-prev::before, .slick-next::before {
   color: var(--primarycolor);
-  font-size: 24px;
+  font-size: var(--fontSize); /* Tamanho das setas */
 }
+
 
 .slick-dots li button:before {
   color: var(--primarycolor); /* Cor dos pontos */
-  font-size: 12px; /* Tamanho dos pontos */
+  font-size: calc(var(--fontSize)/2); /* Tamanho dos pontos */
 }
 
 .slick-dots li.slick-active button:before {
   color: var(--primarycolor); /* Cor dos pontos ativos */
   opacity: 1;
+}
+
+.slick-slider{
+  margin-bottom: calc(var(--fontSize));
 }

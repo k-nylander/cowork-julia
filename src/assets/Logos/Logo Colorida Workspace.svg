@@ -1,0 +1,24 @@
+<svg id="edHkqAlyFKU1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 210 170" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" project-id="0ad1d0de269547b5b88e9e9859b20558" export-id="908d5cff0783437c88dbc8c487dadf7b" cached="false">
+    <g transform="matrix(.98 0 0 0.98-2.812444-73.294188)">
+        <g transform="matrix(2.09627 0 0 2.09627-108.4-179.74)">
+            <circle r="11.846" transform="translate(72.198 138.079)" fill-opacity="0" stroke="#81827c" stroke-width="3.3"/>
+            <path d="M56.028,180.872l3.871-24.6c.702-2.977,5.216-5.21,7.714-6.75" fill-opacity="0" stroke="#81827c" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M80.382,151.956c-.508-.28-1.962-1.543-4.161-2.774" fill-opacity="0" stroke="#81827c" stroke-width="3.3" stroke-linecap="round"/>
+        </g>
+        <g transform="matrix(-2.09627 0 0 2.09627 318.4-179.663)">
+            <!-- 3 -->
+            <circle r="11.846" transform="translate(72.198 138.079)" fill-opacity="0" stroke="#81827c" stroke-width="3.3"/>
+            <path d="M56.028,180.872l3.871-24.6c.702-2.977,5.216-5.21,7.714-6.75" fill-opacity="0" stroke="#81827c" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M80.382,151.956c-.508-.28-1.962-1.543-4.161-2.774" fill-opacity="0" stroke="#81827c" stroke-width="3.3" stroke-linecap="round"/>
+        </g>
+        <g transform="matrix(2.09627 0 0 2.09627-106.565-178.823)">
+            <path d="M95.295,146.889l-15.446,9.82c-2.092921,1.331226-3.355969,3.643605-3.345,6.124l.052,10.57c.01,2.161,1.7,4.437,3.816,4.43q.403-.001.8-.013c1.845-.053,3.29-2.1,3.286-3.988l-.028-14.389" fill="#223d3c" fill-opacity="0" stroke="#223d3c" stroke-width="3.29999" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle r="11.846" transform="translate(100.924 136.247)" fill-opacity="0" stroke="#223d3c" stroke-width="3.3"/>
+            <path d="M100.924,148.092l-5.1,20.087l5.1,6.835l4.9-6.835-4.9-20.087Z" fill="none" stroke="#223d3c" stroke-width="2.64583" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M95.295,146.889l-15.446,9.82c-2.092921,1.331226-3.355969,3.643605-3.345,6.124l.052,10.57c.01,2.161,1.7,4.437,3.816,4.43q.403-.001.8-.013c1.845-.053,3.29-2.1,3.286-3.988l-.028-14.389" transform="matrix(-1 0 0 1 201.849 0.037)" fill="#223d3c" fill-opacity="0" stroke="#223d3c" stroke-width="3.29999" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text dx="0" dy="0" font-family="&quot;Gill Sans MT&quot;" font-size="35.2778" font-weight="300" fill="#9a4c2e" transform="translate(2.859 233.346)" stroke="#9a4c2e" stroke-width="0.529167" stroke-linecap="round" stroke-linejoin="round">
+            <tspan x="0" y="0" font-family="&quot;Gill Sans MT&quot;" font-size="35.2778" font-weight="300" fill="#9a4c2e" font-style="normal" stroke="#9a4c2e" stroke-width="0.529167" stroke-linecap="square" stroke-linejoin="bevel">WORKSPACE</tspan>
+        </text>
+    </g>
+</svg>

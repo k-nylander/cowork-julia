@@ -6,28 +6,23 @@
 @import 'slick-carousel/slick/slick.css';
 @import 'slick-carousel/slick/slick-theme.css';
 
-* {
-  box-sizing: border-box;
-}
 
 @layer base {
 
-  .spaceInnerItens {
-    @apply justify-between
-  }
-  .spaceInnerItens hr {
-    @apply mb-[50px]
-  }
-  .p-default{
-    @apply p-[7.5%]
+  * {
+    box-sizing: border-box;
   }
 
+  .mainDiv{
+    @apply flex bg-page flex-col sm:flex-row sm:space-x-0 sm:space-y-0
+  }
+  
   /* Main desktop style */
   .presentationState-Full{
-    @apply h-full max-w-[60%] basis-3/5 p-[30px]
+    @apply h-screen max-w-[60%] overflow-hidden
   }
   .informationState-Full{
-    @apply h-full basis-2/5
+    @apply h-screen max-w-[40%]
   }
 
   /* Main mobile style */
@@ -35,10 +30,9 @@
     @apply h-screen w-screen
   }
   .informationState-Mobile{
+    @apply h-screen w-screen
   }
-
-  /* Image pesentation default configuration */
-  .carouselImagePresentation{
-    @apply rounded-t-[50%] h-full w-full select-none p-[20px]
+  .testComponent{
+    @apply w-screen h-screen bg-red-500
   }
 }
