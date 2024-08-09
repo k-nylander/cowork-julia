@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/cowork-julia/static/css/main.3dd6aa5e.css",
+    "main.js": "/cowork-julia/static/js/main.db02b7b9.js",
+    "static/js/488.2c975983.chunk.js": "/cowork-julia/static/js/488.2c975983.chunk.js",
+    "static/media/Raleway-VariableFont_wght.ttf": "/cowork-julia/static/media/Raleway-VariableFont_wght.d8040b0cc740dda7550a.ttf",
+    "static/media/Sala2.jpg": "/cowork-julia/static/media/Sala2.c80208a7dfa06ff357f6.jpg",
+    "static/media/PopUp5.jpeg": "/cowork-julia/static/media/PopUp5.5c6b8bfb0dcf2d7985ac.jpeg",
+    "static/media/Sala1.jpg": "/cowork-julia/static/media/Sala1.0f8c27c51567eec4adc3.jpg",
+    "static/media/PopUp6.jpeg": "/cowork-julia/static/media/PopUp6.9c81dcbd802651843a85.jpeg",
+    "static/media/PopUp4.jpeg": "/cowork-julia/static/media/PopUp4.334b6b73b6882ee1fc54.jpeg",
+    "static/media/PopUp1.jpeg": "/cowork-julia/static/media/PopUp1.51daaee55db41b61fb63.jpeg",
+    "static/media/PopUp7.jpeg": "/cowork-julia/static/media/PopUp7.5114f0d53c2f03fb9dbf.jpeg",
+    "static/media/PopUp2.jpeg": "/cowork-julia/static/media/PopUp2.80edc3f6c05ff536bd12.jpeg",
+    "static/media/PopUp3.jpeg": "/cowork-julia/static/media/PopUp3.318173cbafb2ba185535.jpeg",
+    "static/media/Logo Clara + Escrita.svg": "/cowork-julia/static/media/Logo Clara + Escrita.dcfbadef3a6e67607e4f02b1ccd3ebd5.svg",
+    "static/media/Logo Colorida Workspace.svg": "/cowork-julia/static/media/Logo Colorida Workspace.b07e7829897687ba766059578cc5c56a.svg",
+    "static/media/Logo Colorida WorkspaceRC.svg": "/cowork-julia/static/media/Logo Colorida WorkspaceRC.25a184984154d6f35d3a5f00f8e51f0e.svg",
+    "static/media/Logo Escura.svg": "/cowork-julia/static/media/Logo Escura.68123b36c3d39b14949c18495010bccd.svg",
+    "static/media/Logo Clara.svg": "/cowork-julia/static/media/Logo Clara.94ea30d5144ad919914db978e2a274d5.svg",
+    "static/media/Logo Preta.svg": "/cowork-julia/static/media/Logo Preta.59c079e09516cc86ae9cd454de55b427.svg",
+    "static/media/slick.svg": "/cowork-julia/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/cowork-julia/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/cowork-julia/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/cowork-julia/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/cowork-julia/index.html",
+    "main.3dd6aa5e.css.map": "/cowork-julia/static/css/main.3dd6aa5e.css.map",
+    "main.db02b7b9.js.map": "/cowork-julia/static/js/main.db02b7b9.js.map",
+    "488.2c975983.chunk.js.map": "/cowork-julia/static/js/488.2c975983.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dd6aa5e.css",
+    "static/js/main.db02b7b9.js"
+  ]
+}
