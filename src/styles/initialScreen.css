@@ -16,7 +16,7 @@
         font-family: 'RalewayNew';
     }
 
-    #information {
+    .information {
         @apply bg-primary-500 h-full w-full;
         @apply text-center text-white;
         @apply flex flex-col justify-evenly text-lg p-[15%];

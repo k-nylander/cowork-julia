@@ -11,7 +11,7 @@
 
 @layer base {
     #presentation {
-        @apply h-full flex flex-col justify-center items-center box-border py-[3.5%];
+        @apply h-full flex flex-col justify-center items-center box-border sm:py-[3.5%] pb-[15%];
         /* @apply pt-[7.5%] pb-[10%]; */
     }
 

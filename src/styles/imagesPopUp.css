@@ -3,8 +3,54 @@
 @tailwind utilities;
 
 @layer base {
-    .imagesPopUp{
-        @apply flex flex-col items-center justify-center
+    .PopUpSection{
+        @apply fixed bg-black inset-0 bg-opacity-20 backdrop-blur-md z-50;
+        @apply flex justify-center items-center;
+    }
+    .Container{
+        @apply flex flex-col justify-center items-center;
+        @apply bg-page rounded-lg p-4 gap-5 mt-5 text-black border-2 border-primary-500;
+    }
+    .Painel{
+        @apply min-h-fit max-w-full overflow-y-auto;
+    }
+    .sliderStyle{
+        @apply max-w-full w-[90vw];
+        @apply sm:w-[70vw] md:w-[50vw];
+    }
+    .carouselImagePopUp{
+        @apply max-h-[70vh] h-fit max-w-[95%] min-w-[50vw] min-h-[50vh] md:min-w-[20vw] md:min-h-[50vh];
+        @apply object-cover object-center p-2 rounded-lg border-2 mx-auto shadow-lg m-6;
     }
 
+    @keyframes slideUpOut {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+    }
+    
+    @keyframes slideUpIn {
+        0% {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    .exit-animation {
+        animation: slideUpOut 0.5s forwards;
+    }
+    
+    .enter-animation {
+        animation: slideUpIn 0.5s forwards;
+    }
+    
 }

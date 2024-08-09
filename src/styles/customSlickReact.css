@@ -3,9 +3,13 @@
     --fontSize: 24px;
 }
 
+
+/* Carrossel React */
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
 .slick-prev, .slick-next {
   color: var(--primarycolor); /* Cor das setas */
-  z-index: 1;
 }
 
 

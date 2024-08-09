@@ -1,49 +1,63 @@
-import React from 'react';
-
-import '../styles/global.css'
-import '../styles/initialScreen.css'
-
-// import data
-import { information, AlertaDeProducao } from '../data';
-import { UserRoundSearch } from 'lucide-react';
+import React, { useState} from 'react';
+// Import styles
+import '../styles/initialScreen.css';
+// Import data
+import { information} from '../data';
+// Import Pop Up Feature
+import ImagesPopUp from './imagesPopUp';
 
 const icons = {
     instagram: null
-
 };
 
-const initialScreen = () => {
+
+const InitialScreen = () => {
+
+    const [popUp, setPopUp] = useState(false); 
+    
     return (
         <section
-            className='informationSection'
+            className='h-full'
             id='information'>
-            <ul className='menu'>
-                {Object.keys(information.links).map(key => (
-                    <li key={key}>
-                        <a
-                            className=''
-                            onClick={information.links[key].alerta ? AlertaDeProducao : null}
-                            href={information.links[key].link}
-                            target='_blank'
-                        >
-                            {information.links[key].texto}
-                            {icons[information.links[key].icon]}
-                        </a>
-                    </li>
-                ))}
+            <div className="information">
 
+                <ul className='menu'>
+                    {/* Links de Contato e Informativos carregados do Data.js */}
+                    {Object.keys(information.links).map(key => (
+                        <li key={key}>
+                            <a
+                                className=''
+                                href={information.links[key].link != null ? information.links[key].link : null}
+                                target="_blank"
+                            >
+                                {information.links[key].texto}
+                                {icons[information.links[key].icon]}
+                            </a>
+                        </li>
+                    ))}
+
+                    {/* Botão do PopUp */}
+                    <li>
+                        <button onClick={() => setPopUp(true)}>
+                            Nosso espaço
+                        </button>
+                    </li>
+
+                    {/* Botão de contato */}
                     <button
                         href={''}
                         target='_blank'
                         onClick={null}
                         className='availability-button'
                     >
-                        Verifique a<br/>
+                        Verifique a<br />
                         disponibilidade!
                     </button>
-            </ul>
+                </ul>
+            </div>
+            {popUp && <ImagesPopUp onClose={() => setPopUp(false)}/>} 
         </section>
     );
 };
 
-export default initialScreen;
+export default InitialScreen;

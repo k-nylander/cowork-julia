@@ -3,14 +3,11 @@ import Slider from 'react-slick';
 import { ArrowDownFromLine } from 'lucide-react';
 
 // Import Styles
-import '../styles/global.css';
 import '../styles/customSlickReact.css';
 import '../styles/presentation.css';
 
 // import data
 import { presentation } from '../data';
-
-const EmptyArrow = () => <div style={{ display: "none" }}></div>;
 
 const Presentation = () => {
 
