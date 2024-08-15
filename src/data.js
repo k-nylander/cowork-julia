@@ -33,11 +33,23 @@ export const presentation = {
 
 const whatsapp = {
     msg: "Olá, gostaria de saber mais informaçõs sobre os espaços disponíveis!",
-    numero: "5511961260556",
+    numero: "5519995857206",
 
 }
 
+export const escala_horarios = [
+    {inicio: -1, fim: -1},              // Domingo
+    {inicio: '08:00', fim: '18:00'},    // Segunda
+    {inicio: '08:00', fim: '18:00'},    // Terça
+    {inicio: '08:00', fim: '18:00'},    // Quarta
+    {inicio: '08:00', fim: '18:00'},    // Quinta
+    {inicio: '08:00', fim: '18:00'},    // Sexta
+    {inicio: '08:00', fim: '12:00'},    // Sábado
+];
+
 export const information = {
+
+    
     links: [
         {
             link: 'https://www.instagram.com/julialautens_costa/',
@@ -57,8 +69,8 @@ export const information = {
 export const popUpImages = [
     {imagem: popupimg1, titulo: "Corredor Principal"},
     {imagem: popupimg2, titulo: "Banheiro Comum"},
-    {imagem: popupimg3},
-    {imagem: popupimg4},
-    {imagem: popupimg5},
+    {imagem: popupimg3, titulo: "Banheiro Comum"},
+    {imagem: popupimg4, titulo: "Área de Alimentação"},
+    {imagem: popupimg5, titulo: "Acesso às Salas"},
     {imagem: popupimg6},
     {imagem: popupimg7}];

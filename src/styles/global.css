@@ -28,6 +28,6 @@
     @apply h-screen w-screen
   }
   .testComponent{
-    @apply w-screen h-screen bg-red-500
+    @apply fixed z-10 w-screen h-screen bg-red-500
   }
 }

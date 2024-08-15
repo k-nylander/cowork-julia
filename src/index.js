@@ -10,16 +10,24 @@ import './styles/global.css'
 import InitialScreen from './components/initialScreen';
 import Presentation from './components/presentation';
 
+//Tool imports
+import './tools/schedule_handler.js'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>    
+  <React.StrictMode>
     <div className='mainDiv'>
       <div className='presentationState-Mobile sm:presentationState-Full'>
-      {/* <div className='testComponent'> */}
-        <Presentation/>
+
+        <div className='testComponent'>
+          <script src='tools/schedule_handler.js'/>
+        </div>
+
+
+        <Presentation />
       </div>
       <div className="informationState-Mobile sm:informationState-Full">
-        <InitialScreen/>
+        <InitialScreen />
       </div>
     </div>
   </React.StrictMode>
